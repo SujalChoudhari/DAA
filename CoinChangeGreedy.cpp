@@ -43,7 +43,7 @@ void run_coin_change_greedy() {
 	std::cout << std::endl;
 }
 
-int main() {
-	run_coin_change_greedy();
-	return 0;
-}
+//int main() {
+//	run_coin_change_greedy();
+//	return 0;
+//}
