@@ -83,7 +83,7 @@ void run_floyd_warshall() {
 
 }
 
-int main() {
-	run_floyd_warshall();
-	return 0;
-}
+//int main() {
+//	run_floyd_warshall();
+//	return 0;
+//}
