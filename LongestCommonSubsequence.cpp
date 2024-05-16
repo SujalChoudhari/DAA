@@ -77,7 +77,7 @@ void run_lcs() {
 	std::cout << lcs(text, pattern) << std::endl;
 }
 
-int main() {
-	run_lcs();
-	return 0;
-}
+//int main() {
+//	run_lcs();
+//	return 0;
+//}
