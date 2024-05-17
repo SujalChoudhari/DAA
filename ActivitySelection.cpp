@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 
-// usefull for sorting
+// useful for sorting
 struct Activity {
 	int start;
 	int end;
