@@ -46,9 +46,20 @@ void run_zero_one_knapsack(std::deque<Item> items, int max_capacity) {
 	// print table:
 	for (int i = 0; i < items.size() + 1; i++) {
 		for (int j = 0; j < max_capacity + 1; j++) {
-			std::cout << table[i][j] << " ";
+			std::cout << table[i][j] << "\t";
 		}
-		std::cout << std::endl;
+		std::cout << "\n" << std::endl;
+	}
+
+	int cap = max_capacity;
+	int i = items.size(), j = max_capacity;
+	while (cap > 0) {
+		if (table[i][j] != table[i - 1][j]) {
+			std::cout << " (weight-" << items[i - 1].weight << ";profit-" << items[i - 1].profit << ") " << "\t";
+			cap = cap - items[i - 1].weight;
+			j = j - items[i - 1].weight;
+		}
+		i--;
 	}
 }
 
