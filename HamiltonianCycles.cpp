@@ -58,9 +58,9 @@ void hamiltonian_cycle() {
 }
 
 
-int main() {
-	visited[0] = true;
-	path.push_front(0);
-	hamiltonian_cycle();
-	return 0;
-}
+//int main() {
+//	visited[0] = true;
+//	path.push_front(0);
+//	hamiltonian_cycle();
+//	return 0;
+//}
